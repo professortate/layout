@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+        android:text="ICC Ranking of Player"
+        android:textSize="30sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="30sp"
+        />
+    <TableRow android:padding="10dp" android:background="#009688">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="Rank"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="player"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Team"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+    <TableRow android:padding="10dp" android:background="#009688">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Sandeep"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Nepal"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+    <TableRow android:padding="10dp" android:background="#009688">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Virat Kohli"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="India"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+</TableLayout>
